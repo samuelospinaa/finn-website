@@ -6,11 +6,11 @@
   }
   #what-finn,
   #finn-invest {
-    width: 40rem;
+    width: 40rem !important;
   }
-  .third-subtitle,
-  .secondaty-text {
-    width: 30rem;
+  #third-subtitle,
+  .secondary-text {
+    width: 30rem !important;
   }
 }
 
