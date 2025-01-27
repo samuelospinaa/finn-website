@@ -1,0 +1,26 @@
+# Node.js dependencies (si utilizas npm o yarn)
+node_modules/
+
+# Archivos generados por herramientas de construcción
+dist/
+build/
+out/
+
+# Archivos temporales y de sistema
+*.log
+*.tmp
+*.env
+.DS_Store
+Thumbs.db
+
+# Configuración del editor
+.vscode/
+.idea/
+
+# Archivos de distribución final
+*.min.js
+*.min.css
+
+#Archivos de dependecias json
+package-lock.json
+package.json
