@@ -14,6 +14,17 @@
   }
 }
 
+@media (max-width: 400px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 30rem;
+  }
+}
+
 @media (max-width: 1100px) {
   .icon-app {
     display: none;
@@ -68,10 +79,19 @@ nav {
   cursor: pointer;
 }
 
+#person-cellphone {
+  width: 20rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30%;
+}
+
 ul {
   display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-end;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: 15%;
   list-style: none;
   margin-right: 2rem;
@@ -134,21 +154,20 @@ h1 {
   z-index: 999;
 }
 
-.icon-app {
-  z-index: 1;
-  height: auto;
-  position: absolute;
-  top: 100px;
-  right: 375px;
-  width: 65px;
-}
-
 #second-section,
 #third-section {
   height: 75vh;
   margin-left: 8%;
   display: flex;
   flex-direction: column;
+}
+
+#profit-image {
+  width: 20rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 120%;
 }
 
 .section-text {
@@ -184,6 +203,14 @@ button:hover {
   transform: scale(1.1);
   background-color: azure;
   cursor: pointer;
+}
+
+#hand-image {
+  width: 15rem;
+  position: absolute;
+  left: 15%;
+  transform: translateX(-50%);
+  top: 213%;
 }
 
 #third-subtitle {
