@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 @media (max-width: 750px) {
-  .phone {
+  .imagen {
     display: none;
   }
   #what-finn,
@@ -14,7 +14,24 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1000px) {
+  .phone {
+    display: none;
+  }
+
+  #person-cellphone {
+    position: absolute;
+    left: 75% !important;
+    top: 50% !important;
+  }
+
+  #last-title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
   body {
     display: flex;
     justify-content: center;
@@ -22,6 +39,27 @@
     flex-direction: column;
     gap: 2rem;
     width: 30rem;
+  }
+
+  nav {
+    width: 100% !important;
+    margin-top: 0 !important;
+  }
+
+  .secondary-text {
+    width: 25rem !important;
+  }
+
+  #hand-image {
+    width: 12rem !important;
+    display: block !important;
+    top: 238% !important;
+    left: 50% !important;
+  }
+
+  #finn-works-title {
+    width: 25rem !important;
+    text-align: center;
   }
 }
 
