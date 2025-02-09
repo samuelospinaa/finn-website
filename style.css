@@ -12,6 +12,11 @@
   .secondary-text {
     width: 30rem !important;
   }
+
+  body {
+    background-color: azure !important;
+    background: none;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -28,10 +33,11 @@
   #last-title {
     text-align: center;
     margin-bottom: 2rem;
+    margin-top: 2rem;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   body {
     display: flex;
     justify-content: center;
@@ -60,6 +66,11 @@
   #finn-works-title {
     width: 25rem !important;
     text-align: center;
+  }
+
+  #what-finn,
+  #finn-invest {
+    width: 25rem !important;
   }
 }
 
